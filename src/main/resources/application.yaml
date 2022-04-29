@@ -20,6 +20,11 @@ spring:
           uri: lb://EAD-NOTIFICATION-SERVICE
           predicates:
             - Path=/ead-notification/*
+ead:
+  serviceRegistry:
+    username: serviceregistry
+    password: 'ead123sr'
+
 
 eureka:
   client:
